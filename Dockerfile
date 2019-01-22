@@ -1,4 +1,4 @@
-FROM busybox
+FROM busybox:latest
 RUN mkdir -p /var/lib/misc/ && \
     mkdir /udhcpd && \
     touch /udhcpd/udhcpd.leases &&\
